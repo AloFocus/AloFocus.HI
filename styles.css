@@ -1,0 +1,304 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #000000;
+    color: #00000000;
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 60px;; /* Increase height for better visibility */
+    width: auto;  /* Maintain aspect ratio */
+    padding-left: 20px; /* Add padding to move it a bit away from the left edge */
+    
+}
+
+header nav {
+    flex-grow: 1;
+    text-align: center; /* Center the navigation */
+}
+
+header nav a {
+    color: #0e0e0e;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    font-size: 1.2rem; /* Increase font size */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSetMPJWOuKU7hcmjHFFO2ADy--0CXEyLEnWA&s') no-repeat center center fixed;
+        background-size: cover;
+    }
+    
+    .header {
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .header h1 {
+        color: #100f0f;
+        font-size: 48px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .start-learning-btn {
+        background-color: yellow;
+        color: rgb(214, 250, 5);
+        border: none;
+        padding: 15px 30px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    
+    .start-learning-btn:hover {
+        background-color: #4400ff;
+    }
+    
+}
+
+.hero {
+    background: url('file:///D:/alofocus_website/images/nice.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem; /* Increase font size */
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.8rem; /* Increase font size */
+    
+}
+
+.features, .about, .testimonials, .workshops {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: #fff;
+    margin: 1rem 0;
+}
+
+.features h2, .about h2, .testimonials h2, .workshops h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.features div, .testimonials div, .workshops .workshop-item {
+    margin-bottom: 1rem;
+}
+
+.workshops .workshop-item a {
+    display: inline-block;
+    background: #ff6347;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.workshops .workshop-item a:hover {
+    background: #e5533d;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header.sticky-header {
+    background-color: #f9f8f8;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 20px;
+  
+}
+
+nav {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown li a {
+    padding: 12px 16px;
+}
+
+.dropdown li a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Main sections */
+.main-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {}
+    header, footer {
+        padding: 0.5rem 0;
+    }
+.start-learning-btn {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 20px 40px;  /* Increased padding to make it bigger */
+    font-size: 20px;     /* Increased font size */
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.start-learning-btn:hover {
+    background-color: #ffcc00;
+}
+.small-logo {
+    width: 120px; /* Adjust the width to make the logo smaller */
+    height: auto; /* Maintain aspect ratio */
+}
+small-logo {
+    width: 120px; /* Adjust the width to make the logo smaller */
+    height: auto; /* Maintain aspect ratio */
+}
+
+    
+
+
